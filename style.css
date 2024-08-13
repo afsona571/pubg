@@ -1,0 +1,97 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+header {
+    background-color: black;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation > ul {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+select {
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+    border: none;
+}
+
+
+.btn {
+    border: none;
+    font-weight: bold;
+    padding: 30px;
+    background-color: #F1A900;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+}
+.banner ul{
+    font-family: Inter;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    color: white;
+}
+
+.banners {
+    text-align: center;
+    color: white;
+    background-image:url(img.png);
+    width: 1440px;
+    height: 797px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 50px 20px;
+   
+   
+   
+}
+.banners .pc, .banners .console {
+    background-color: #ffc107;
+    padding: 40px 80px;
+    margin: 80px;
+    font-size: 28px;
+}
+.banners h1{
+   background-color: #F1A900;
+   width: 766px;
+   height: 102px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: black;
+   
+}
